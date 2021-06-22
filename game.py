@@ -168,4 +168,23 @@ def newGame():
 
 	input("Press enter to return to main menu")	
 
-	
+
+
+def instructions():
+	click.clear()
+	print("INSTRUCTIONS\n")
+	with open("instructions.txt", "r") as f:
+		print(f.read())	
+	print("\nChoose one of the following:")
+	print("1. Start the game")
+	print("2. Quit")
+	choice = input("\nChoose one of the above options: ")
+
+	while choice not in ["1", "2"]:
+		choice = input("Please enter a valid option: ")
+
+	if(choice == "1"):
+		newGame()
+	else:
+		print("\nGoodbye!")
+		exit()
