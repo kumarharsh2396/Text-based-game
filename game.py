@@ -188,3 +188,27 @@ def instructions():
 	else:
 		print("\nGoodbye!")
 		exit()
+
+def main():
+	click.clear()
+	print("MEMORY GAME\n")
+	print("Welcome to the memory game! Choose one of the following:\n")
+	print("1. New Game")
+	print("2. Instructions")
+	print("3. Quit")
+
+	choice = input("\nChoose one of the above options: ")
+
+	while choice not in ["1", "2", "3"]:
+		choice = input("Please enter a valid option: ")
+
+	if(choice == "1"):
+		newGame()
+	elif(choice == "2"):
+		instructions()
+	else:
+		print("Goodbye!")
+		exit()	
+
+if __name__ == "__main__":
+	main()
