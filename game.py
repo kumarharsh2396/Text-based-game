@@ -16,3 +16,29 @@ def generateList(topicName):
 			itemList.append(item.lower())
 
 	return itemList
+
+def chooseGenre(beenHere):
+	
+	click.clear()	
+	# List of all available topics
+	print("Choose one of the following topics:\n")
+	print("1. Fruits")
+	print("2. Countries")
+	print("3. Names")
+	# Add more choices here
+
+	if not beenHere:
+		choice = input("\nChoose one of the above options: ")
+	else:
+		choice = input("\nPlease choose a valid option from above: ")	
+
+	if choice == "1":
+		return "fruits"
+	elif choice == "2":
+		return "countries"
+	elif choice == "3":
+		return "Names"	
+
+	# Add more elif statements here	
+	else:
+		 return chooseGenre(True)	
