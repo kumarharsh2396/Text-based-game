@@ -167,6 +167,7 @@ def newGame():
 	print("\nGood Run! Your score is " + str(len(gameList)) + ".\n")	
 
 	input("Press enter to return to main menu")	
+	main()
 
 
 
