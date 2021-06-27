@@ -6,7 +6,7 @@ import random
 def generateList(topicName):
 	fileName = "CSVs/" + topicName + ".csv"
 
-	with open(fileName, 'r') as f:
+	with open(fileName) as f:
 	    reader = csv.reader(f)
 	    rawList = list(reader)
 
