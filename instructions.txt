@@ -1,9 +1,9 @@
 The game is simple. Choose a topic from the ones given.
 You will be asked to name one item from the group of items you have chosen 
 (Eg: You chose Fruits as your topic. "apple" or "muskmelon" are valid answers).
-It is then the computer's turn. The computer will repeat the item that you mentioned and then add a new item from the same genre.
+It is then the computer's turn. The computer will repeat the item that you mentioned and then add a new item from the same genre that you have choosen.
 Back to your turn. You must repeat everything that has been mentioned so far from memory and then add another item.
 This cycle keeps repeating and the list to be memorized keeps growing in size, either till the list for the given genre has been exhausted,
 in which case you win, or you make a mistake in recalling the sequence of items, in which case the computer wins.
-Be careful: Incorrect spellings of otherwise right answers still count as wrong answers.
-On the plus side though, input is not case sensitive. 
+Incorrect spellings of even the right answers still count as wrong answers.
+

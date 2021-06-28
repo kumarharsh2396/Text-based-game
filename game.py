@@ -20,7 +20,7 @@ def generateList(topicName):
 def chooseGenre(beenHere):
 	
 	click.clear()	
-	# List of all available topics
+	# List of available topics
 	print("Choose one of the following topics:\n")
 	print("1. Fruits")
 	print("2. Countries")
