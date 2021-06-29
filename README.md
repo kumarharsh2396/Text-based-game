@@ -12,13 +12,14 @@
 
 # Features:-
 - On a plus note input is not case sensitive.
+- even if the genre has been exhauted or you entered incorrect sequence of items in both cases after end of game computer will tell you your score.
 >## python modules used
 - [Random module](https://docs.python.org/3/library/random.html) 
 - [Csv module](https://docs.python.org/3/library/csv.html)
 - [Click module](https://docs.python.org/3/library/csv.html)
 
 # Requirements:-
->- ## Python 3.+(personally i used Python 3.8.5).
+>- Python 3.+(personally i used Python 3.8.5).
 - Check your Python version by typing ```python --version``` in terminal/cmd prompt. If version is python 3.x you can continue. If version is python 2.x, try: ```python3 --version```. 
 
 # Instruction to play the game
