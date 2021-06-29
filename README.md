@@ -40,7 +40,7 @@ $ python3 game.py
 # Contributing
  I would love to expand this game and add more genres. To contribute a new genre, follow these steps:
 
-1. Find a common genere that would be suitable for this game.please replaces Names genre with a suitable one like a list of currency of different countries.
+1. Find a common genere that would be suitable for this game.please replace Names genre with a suitable one like a list of currency of different countries.
 
 2. Compile a .csv file of all the items from that genre with each item on a new line, and no space after the name of the item on the same line. Please try to make the list as exhaustive as possible, because the game validates the user's input based on whether or not given input is an item in the list. Also, the .csv should have atleast 50 items. Save the .csv in the CSVs directory with an appropriate name.
 
