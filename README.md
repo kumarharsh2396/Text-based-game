@@ -36,6 +36,7 @@ $ cd Text-based-game
 ```
 $ python3 game.py
 ```
+- For video demonstration [click here](https://www.youtube.com/watch?v=J9ll9KtkJ_U) 
 ![banner](./images/welcome.png)
 # Contributing
  I would love to expand this game and add more genres. To contribute a new genre, follow these steps:
